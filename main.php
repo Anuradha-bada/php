@@ -6,6 +6,6 @@
 <html>
   <head>
   <h1>CHecking Environment Variables</h1>
-  @ConfigurationManager.AppSettings["Env"]
+  @env["string"]
   </head>
 </html>
