@@ -1,8 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first PHP page</h1>
+
 <?php
-  #echo "This is the PHP application";
-  #$string = env('string');
- # print string;
-#?>
-  $var1= "Hello World";
-  echo printf($var1);
-?>
+echo "Hello World!";
+?> 
+
+</body>
+</html>
