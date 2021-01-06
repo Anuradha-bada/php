@@ -11,7 +11,7 @@
    $string="Default Varibale";
    echo "<br>;
    echo .$username;
-   echo $string;
+   #echo $string;
 ?> 
 
 </body>
