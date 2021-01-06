@@ -6,6 +6,7 @@
 <html>
   <head>
   <h1>CHecking Environment Variables</h1>
-  @.env["string"]
+  $var1= "Hello World";
+  echo printf($var1);
   </head>
 </html>
