@@ -6,6 +6,8 @@
 
 <?php
 echo "Hello World!";
+$string="Default Varibale"
+echo $string;
 ?> 
 
 </body>
