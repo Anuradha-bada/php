@@ -6,6 +6,6 @@
 <html>
   <head>
   <h1>CHecking Environment Variables</h1>
-  @env["string"]
+  @.env["string"]
   </head>
 </html>
