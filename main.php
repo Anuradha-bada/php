@@ -8,6 +8,9 @@
 echo "Hello World!";
 echo "<br>";
 $string="Default Varibale";
+echo "<br>;
+echo $_SERVER['PHP_SELF'];
+echo "<br>";
 echo $string;
 ?> 
 
