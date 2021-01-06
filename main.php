@@ -10,7 +10,7 @@
    echo "<br>";
    $string="Default Varibale";
    echo "<br>;
-   echo $username
+   echo .$username;
    echo $string;
 ?> 
 
