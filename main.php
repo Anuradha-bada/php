@@ -1,5 +1,11 @@
-<?php
-  echo "This is the PHP application";
-  $string = env('string');
-  print string;
-?>
+#<?php
+  #echo "This is the PHP application";
+  #$string = env('string');
+ # print string;
+#?>
+<html>
+  <head>
+  <h1>CHecking Environment Variables</h1>
+  @ConfigurationManager.AppSettings["Env"]
+  </head>
+</html>
