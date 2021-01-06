@@ -6,7 +6,7 @@
 
 <?php
 echo "Hello World!";
-echo "<br>"
+echo "<br>";
 $string="Default Varibale";
 echo $string;
 ?> 
