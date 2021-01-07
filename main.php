@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html>
-<body>
+@using System.Configuration
+@{
+    ViewBag.Title = "Home Page";
+}
 
-<h1>My first PHP page</h1>
-
-<?php
-   include('config.php');
-   echo "Hello World!";
-   echo "<br>";
-   $string="Default Varibale";
-   echo $username;
-   echo "<br>;
-   echo $string;
-?> 
-
-</body>
-</html>
+<div class="jumbotron')">
+    <h1>Testing App Settings</h1>
+    @ConfigurationManager.AppSettings["Environment"]
+</div>
