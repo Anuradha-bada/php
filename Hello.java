@@ -5,6 +5,7 @@ public class Hello
     Properties prop=new Properties();
     FileInputStream ip= new FileInputStream(“php/config.properties”);
     prop.load(ip);
-    out.println(prop.getProperty(“key1”));
+    System.out.println(prop.getProperty(“key1”));
+    System.out.println("Hello");
   }
 }
