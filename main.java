@@ -4,4 +4,5 @@ public static void main
   FileInputStream ip= new FileInputStream(“php/config.properties”);
   prop.load(ip);
   out.println(prop.getProperty(“key1”));
+  out.println("Hello World");
 }
