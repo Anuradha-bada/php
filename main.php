@@ -9,8 +9,8 @@
    echo "Hello World!";
    echo "<br>";
    $string="Default Varibale";
-   echo "<br>;
    echo $username;
+   echo "<br>;
    echo $string;
 ?> 
 
