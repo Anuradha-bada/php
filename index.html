@@ -1,9 +1,0 @@
-@using System.Configuration
-@{
-    ViewBag.Title = "Home Page";
-}
-
-<div class="jumbotron')">
-    <h1>Testing App Settings</h1>
-    @ConfigurationManager.AppSettings["Environment"]
-</div>
